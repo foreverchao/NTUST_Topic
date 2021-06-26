@@ -9,7 +9,7 @@ import subprocess
 import os
 
 #sess.update_profile(bio="VIM is the best")
-img_name = 'Ste'
+img_name = 'WuPro'
 
 import os.path
 import psutil

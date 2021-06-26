@@ -3,7 +3,7 @@ with open("tinder_api/utils/token.txt", "r") as f:
 
 # it is best for you to write in the token to save yourself the file I/O
 # especially if you have python byte code off
-tinder_token = "yourtoken"
+tinder_token = "bf8cca44-5ba9-47d0-bbfc-cc31ad216b12"
 
 headers = {
     'app_version': '6.9.4',

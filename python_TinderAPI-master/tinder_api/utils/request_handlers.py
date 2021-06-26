@@ -1,12 +1,12 @@
 import json
-
 import requests
-
-from tinder_api.utils import config
+from tinder_api.utils  import config
 
 
 def get(url):
     full_url = config.host + url
+    #from requests.packages import urllib3
+    #urllib3.disable_warnings()
     r = requests.get(full_url, headers=config.headers)
     return r.json()
 
